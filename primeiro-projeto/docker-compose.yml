@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  www:
+    build: .
+    restart: always
+    
+volumes: 
+    db_data:
